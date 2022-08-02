@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "249865233068",
+    "firebase_url": "https://medifit-dffd1-default-rtdb.firebaseio.com",
+    "project_id": "medifit-dffd1",
+    "storage_bucket": "medifit-dffd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249865233068:android:55889f2647cadf36c97509",
+        "android_client_info": {
+          "package_name": "com.example.medifit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249865233068-sdnprhdm7qh9bli8n5mbtrlj1m28bhbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medifit",
+            "certificate_hash": "d9e88ac4416f9d623ead6e67602e522423a608d1"
+          }
+        },
+        {
+          "client_id": "249865233068-mnf0h9qh9etttm8ecevr13dhbbs08mv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTx61faGJFnw5nYZAnB6vwJeZemBrcVFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249865233068-mnf0h9qh9etttm8ecevr13dhbbs08mv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
