@@ -137,6 +137,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
+            android:textStyle="bold"
             android:text="New To MediFit ?"
             android:textSize="15dp">
 
