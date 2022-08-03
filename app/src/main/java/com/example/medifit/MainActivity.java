@@ -2,11 +2,14 @@ package com.example.medifit;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.drawable.RoundedBitmapDrawable;
+import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.identity.BeginSignInRequest;
@@ -21,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         GoogleSignInOptions gso;
         GoogleSignInClient gsc;
-        Button googlebutton;
+        ImageView googlebutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

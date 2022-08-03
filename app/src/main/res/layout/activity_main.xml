@@ -100,20 +100,32 @@
 
         android:textSize="18dp"></TextView>
 
-    <Button
-        android:id="@+id/btgoogle"
-        android:layout_width="240dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="7dp"
-        android:background="@drawable/shape"
-        android:shadowColor="@color/blue"
-        android:text="Login with Google">
+<!--    <Button-->
+<!--        android:id="@+id/btgoogle"-->
+<!--        android:layout_width="243dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:background="@drawable/shape"-->
+<!--        android:drawableLeft=""-->
+<!--        android:shadowColor="@color/blue"-->
+<!--        android:text="Login with Google">-->
 
-    </Button>
+<!--    </Button>-->
+
+    <ImageView
+        android:id="@+id/btgoogle"
+        android:layout_width="340dp"
+        android:layout_height="98dp"
+        android:layout_gravity="left"
+        android:background="@drawable/google"
+        >
+
+    </ImageView>
+
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="303dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -122,7 +134,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
-            android:text="New To MediFit?"
+            android:text="New To MediFit ?"
             android:textSize="15dp">
 
         </TextView>
@@ -132,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Register"
+            android:text=" Register"
             android:textColor="@color/blue"
             android:textSize="15dp">
 
