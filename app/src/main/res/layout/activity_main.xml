@@ -88,7 +88,10 @@
         android:layout_marginLeft="50dp"
         android:background="@drawable/shape"
         android:shadowColor="@color/blue"
-        android:text="Login">
+        android:text="Login"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold">
 
     </Button>
 
