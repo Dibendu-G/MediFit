@@ -7,39 +7,44 @@
     tools:context=".SecondAcrivity">
 
     <TextView
-        android:layout_width="163dp"
-        android:layout_height="60dp"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="227dp"
-        android:layout_marginBottom="643dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="47dp"
         android:text="Welcome"
         android:textSize="34sp"
         android:textStyle="italic" />
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="178dp"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="288dp"
-        android:layout_marginBottom="505dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="95dp"
         android:text="name"
         android:textSize="34sp" />
 
     <TextView
         android:id="@+id/email"
-        android:layout_width="98dp"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/signoutBtn"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginEnd="183dp"
-        android:layout_marginBottom="372dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="158dp"
         android:text="email"
-        android:textColor="@color/black"
         android:textSize="34sp" />
 
     <Button
@@ -48,8 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="115dp"
-        android:layout_marginBottom="161dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="163dp"
         android:text="Sign Out" />
 
 

@@ -16,17 +16,18 @@
         <ImageView
             android:id="@+id/image_sendotp"
             android:layout_width="350dp"
-            android:layout_height="325dp"
+            android:layout_height="300dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/forgotpassword" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
             android:text="@string/otp_verfication"
             android:textColor="@color/blue"
-            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <TextView
@@ -36,18 +37,19 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
+            android:layout_marginBottom="15dp"
             android:gravity="center"
-            android:text="@string/we_will_send_you_an_one_time_otp_on_this_given_mobile_number"
+            android:text="@string/we_will_send_you_an_one_time_password_on_this_given_mobile_number"
             android:textSize="14sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="20dp"
             android:layout_marginRight="30dp"
             android:gravity="center"
             android:text="@string/enter_mobile_number"
@@ -93,12 +95,13 @@
 
             <Button
                 android:id="@+id/buttongetotp"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/backgroundbutton"
                 android:text="Get Otp"
-                android:layout_margin="30dp"
-                android:textStyle="bold"
-                android:background="@drawable/backgroundbutton"/>
+                android:textStyle="bold" />
 
 
             <ProgressBar
@@ -106,12 +109,10 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
-                android:visibility="gone"/>
+                android:visibility="gone" />
 
 
         </FrameLayout>
-
-
 
 
     </LinearLayout>
