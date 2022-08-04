@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.identity.BeginSignInRequest;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         GoogleSignInOptions gso;
         GoogleSignInClient gsc;
         ImageView googlebutton;
+        TextView frgtpassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +34,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         googlebutton=findViewById(R.id.btgoogle);
+        frgtpassword=findViewById(R.id.forgetpassword);
 
         gso=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this,gso);
+
+        frgtpassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,entermobilenumberone.class);
+                startActivity(i);
+                finish();
+            }
+        });
 
         googlebutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
         void signin(){
             Intent signInInetent = gsc.getSignInIntent();
             startActivityForResult(signInInetent,1000);

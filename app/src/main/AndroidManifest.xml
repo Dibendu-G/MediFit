@@ -16,9 +16,14 @@
         android:theme="@style/Theme.Medifit"
         tools:targetApi="31">
         <activity
+            android:name=".verifyenterotptwo"
+            android:exported="false" />
+        <activity
+            android:name=".entermobilenumberone"
+            android:exported="false" />
+        <activity
             android:name=".SecondAcrivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,7 +32,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 

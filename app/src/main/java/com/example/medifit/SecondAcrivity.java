@@ -1,20 +1,16 @@
 package com.example.medifit;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 
 public class SecondAcrivity extends AppCompatActivity {
     GoogleSignInOptions gso;
@@ -42,23 +38,15 @@ public class SecondAcrivity extends AppCompatActivity {
             email.setText(personEmail);
         }
 
-        signout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                signOut();
-            }
-        });
+        signout.setOnClickListener(view -> signOut());
 
             }
 
             void signOut()
             {
-                gsc.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete( Task<Void> task) {
-                            finish();
-                            startActivity(new Intent(SecondAcrivity.this,MainActivity.class));
-                    }
+                gsc.signOut().addOnCompleteListener(task -> {
+                        finish();
+                        startActivity(new Intent(SecondAcrivity.this,MainActivity.class));
                 });
             }
 }

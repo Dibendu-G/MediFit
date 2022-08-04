@@ -55,9 +55,7 @@
             android:layout_marginTop="10dp"
             android:hint="Enter Password"
             android:paddingLeft="35dp"
-            android:paddingRight="50dp"
-
-            app:passwordToggleEnabled="true">
+            android:paddingRight="50dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -71,8 +69,9 @@
         android:id="@+id/forgetpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="230dp"
+        android:layout_marginLeft="235dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
         android:text="Forget Password?"
         android:textColor="@color/blue"
         android:textSize="15dp"
@@ -118,11 +117,10 @@
 
     <ImageView
         android:id="@+id/btgoogle"
-        android:layout_width="340dp"
+        android:layout_width="326dp"
         android:layout_height="98dp"
         android:layout_gravity="left"
-        android:background="@drawable/google"
-        >
+        android:background="@drawable/google">
 
     </ImageView>
 

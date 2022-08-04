@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-
+<!--        background -->
+<!--        <item name="android:background">#21FFC107</item>-->
     </style>
 </resources>

@@ -19,5 +19,8 @@
 
 <!--        button Colour -->
         <item name="android:button">@color/blue</item>
+
+<!--        background colour -->
+        <item name="android:background">@color/black</item>
     </style>
 </resources>
