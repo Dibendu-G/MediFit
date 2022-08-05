@@ -21,7 +21,7 @@
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/otpenter" />
+            android:src="@drawable/submitotpic" />
 
 
         <TextView
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textColor="@color/blue"
-            android:text="OTP Verfication"
+            android:text=" Enter OTP "
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -41,7 +41,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
             android:gravity="center"
-            android:text="Please Enter the OTP sent to you"
+            android:text="An 6 digit code has been sent to you on"
             android:textSize="14sp" />
 
         <TextView
@@ -183,7 +183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="RESEND OTP AGAIN"
+                android:text="Resend OTP again"
                 android:textColor="@color/blue"
                 android:layout_marginLeft="5dp"
                 android:textSize="15sp"
