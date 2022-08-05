@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         GoogleSignInOptions gso;
         GoogleSignInClient gsc;
         ImageView googlebutton;
-        TextView frgtpassword;
+        TextView frgtpassword,newregister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +35,19 @@ public class MainActivity extends AppCompatActivity {
 
         googlebutton=findViewById(R.id.btgoogle);
         frgtpassword=findViewById(R.id.forgetpassword);
+        newregister=findViewById(R.id.newregister);
 
         gso=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this,gso);
+
+        newregister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,SignUp.class);
+                startActivity(a);
+                finish();
+            }
+        });
 
         frgtpassword.setOnClickListener(new View.OnClickListener() {
             @Override

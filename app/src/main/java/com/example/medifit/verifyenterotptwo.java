@@ -48,13 +48,15 @@ public class verifyenterotptwo extends AppCompatActivity {
 
         resendOtp=findViewById(R.id.textresendotp);
 
+//        re-send otp code
+
         resendOtp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 PhoneAuthProvider.getInstance().verifyPhoneNumber(
                         "+91" + getIntent().getStringExtra("mobile"),
-                        5,
+                        15,
                         TimeUnit.SECONDS,
                         verifyenterotptwo.this,
                         new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
