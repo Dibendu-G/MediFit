@@ -28,27 +28,26 @@
     </TextView>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="340dp"
+        android:layout_height="280dp"
         android:layout_marginTop="300dp"
-        android:layout_marginBottom="2dp"
-        android:gravity="center"
+        android:layout_marginBottom="5dp"
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/singupemail"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="400dp"
+            android:layout_width="370dp"
             android:layout_height="65dp"
             android:layout_marginTop="5dp"
             android:hint="Enter Email Id"
-            android:paddingLeft="35dp"
-            android:paddingRight="50dp">
+            android:paddingLeft="40dp"
+            android:paddingRight="60dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:background="@drawable/backgroundbox"
                 android:layout_height="wrap_content"
+                android:background="@drawable/backgroundbox"
                 android:inputType="textEmailAddress">
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -57,17 +56,17 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/fullname"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="400dp"
+            android:layout_width="370dp"
             android:layout_height="65dp"
             android:layout_marginTop="05dp"
             android:hint="Enter Full Name"
-            android:paddingLeft="35dp"
-            android:paddingRight="50dp">
+            android:paddingLeft="40dp"
+            android:paddingRight="60dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:background="@drawable/backgroundbox"
                 android:layout_height="wrap_content"
+                android:background="@drawable/backgroundbox"
                 android:inputType="text">
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -76,12 +75,12 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/signpswd"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="400dp"
+            android:layout_width="370dp"
             android:layout_height="65dp"
             android:layout_marginTop="05dp"
             android:hint="Enter Password"
-            android:paddingLeft="35dp"
-            android:paddingRight="50dp">
+            android:paddingLeft="40dp"
+            android:paddingRight="60dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -95,18 +94,18 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/phonenumber"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="400dp"
+            android:layout_width="370dp"
             android:layout_height="65dp"
-            android:layout_marginTop="05dp"
+            android:layout_marginTop="5dp"
             android:hint="Enter Phone Number"
-            android:paddingLeft="35dp"
-            android:paddingRight="50dp">
+            android:paddingLeft="40dp"
+            android:paddingRight="60dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
                 android:background="@drawable/backgroundbox"
+                android:inputType="number"
                 android:maxLength="10">
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -116,11 +115,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="583dp"
         android:layout_marginBottom="50dp"
         android:text="By signing up, you're agree to our"
-        android:textSize="11dp">
+        android:textSize="9dp">
 
     </TextView>
 
@@ -128,40 +127,50 @@
         android:id="@+id/terms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="212dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="583dp"
         android:layout_marginBottom="50dp"
-        android:text="@string/termsAndConditions"
         android:autoLink="web"
-        android:textColor="@color/blue"
-        android:textSize="11dp">
+        android:text="@string/TermsAndConditions"
+        android:textSize="9dp">
 
     </TextView>
-    <EditText
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="266dp"
+        android:layout_marginTop="583dp"
+        android:layout_marginBottom="50dp"
+        android:text="and"
+        android:textSize="9dp">
+
+    </TextView>
+
+    <TextView
         android:id="@+id/privacy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="595dp"
-        android:autoLink="web"
+        android:layout_marginLeft="282dp"
+        android:layout_marginTop="583dp"
         android:layout_marginBottom="50dp"
-        android:text="@string/privacyPolicy"
-        android:textColor="@color/blue"
-        android:textSize="11dp">
+        android:autoLink="web"
+        android:text="@string/PrivacyPolicy"
+        android:textSize="9dp">
 
-    </EditText>
+    </TextView>
 
     <Button
         android:id="@+id/btnsignup"
-        android:layout_width="240dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="612dp"
+        android:layout_width="220dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="605dp"
         android:background="@drawable/shape"
         android:shadowColor="@color/blue"
         android:text="Continue"
         android:textColor="@color/white"
-        android:textSize="23dp"
+        android:textSize="21dp"
         android:textStyle="bold">
 
     </Button>
@@ -169,11 +178,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="680dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="670dp"
         android:text="Joined us before ?"
-        android:textSize="15dp"
-        android:textStyle="bold">
+        android:textSize="15dp">
 
     </TextView>
 
@@ -181,8 +189,8 @@
         android:id="@+id/backtologin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="228dp"
-        android:layout_marginTop="680dp"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="670dp"
         android:text=" Login Here"
         android:textColor="@color/blue"
         android:textSize="15dp"
