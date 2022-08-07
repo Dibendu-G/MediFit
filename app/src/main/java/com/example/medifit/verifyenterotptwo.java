@@ -30,6 +30,8 @@ public class verifyenterotptwo extends AppCompatActivity {
 
     TextView resendOtp;
 
+    Button submitButton;
+
     String getotpbackend;
 
     @Override
@@ -37,7 +39,9 @@ public class verifyenterotptwo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verifyenterotptwo);
 
-        final Button verifybuttonclick = findViewById(R.id.buttongetotp);
+        final Button verifybuttonclick = findViewById(R.id.buttonSubmitOtp);
+
+        submitButton=findViewById(R.id.buttonSubmitOtp);
 
         inputnumber1 = findViewById(R.id.inputotp1);
         inputnumber2 = findViewById(R.id.inputotp2);
@@ -47,6 +51,17 @@ public class verifyenterotptwo extends AppCompatActivity {
         inputnumber6 = findViewById(R.id.inputotp6);
 
         resendOtp=findViewById(R.id.textresendotp);
+
+
+
+//        submitButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent=new Intent(verifyenterotptwo.this,resetpassword.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
 
 //        re-send otp code
 
@@ -115,7 +130,7 @@ public class verifyenterotptwo extends AppCompatActivity {
                                         verifybuttonclick.setVisibility(View.VISIBLE);
 
                                         if (task.isSuccessful()) {
-                                            Intent intent = new Intent(getApplicationContext(), SecondAcrivity.class);
+                                            Intent intent = new Intent(getApplicationContext(), resetpassword.class);
                                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                             startActivity(intent);
                                         } else {

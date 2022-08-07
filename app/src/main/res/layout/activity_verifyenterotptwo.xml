@@ -199,7 +199,7 @@
 
 
             <Button
-                android:id="@+id/buttongetotp"
+                android:id="@+id/buttonSubmitOtp"
                 android:layout_width="260dp"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
