@@ -8,8 +8,8 @@
     tools:context=".SignUp">
 
     <ImageView
-        android:layout_width="246dp"
-        android:layout_height="227dp"
+        android:layout_width="248dp"
+        android:layout_height="205dp"
         android:layout_marginLeft="65dp"
         android:src="@drawable/singupimage">
 
@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="190dp"
         android:paddingLeft="25dp"
         android:text="Sign Up"
         android:textColor="@color/blue"
@@ -29,8 +29,8 @@
 
     <LinearLayout
         android:layout_width="340dp"
-        android:layout_height="280dp"
-        android:layout_marginTop="300dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="255dp"
         android:layout_marginBottom="5dp"
         android:orientation="vertical">
 
@@ -38,7 +38,7 @@
             android:id="@+id/singupemail"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="370dp"
-            android:layout_height="65dp"
+            android:layout_height="80dp"
             android:layout_marginTop="5dp"
             android:hint="Enter Email Id"
             android:paddingLeft="40dp"
@@ -57,8 +57,8 @@
             android:id="@+id/fullname"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="370dp"
-            android:layout_height="65dp"
-            android:layout_marginTop="05dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="5dp"
             android:hint="Enter Full Name"
             android:paddingLeft="40dp"
             android:paddingRight="60dp">
@@ -76,7 +76,7 @@
             android:id="@+id/signpswd"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="370dp"
-            android:layout_height="65dp"
+            android:layout_height="80dp"
             android:layout_marginTop="05dp"
             android:hint="Enter Password"
             android:paddingLeft="40dp"

@@ -114,19 +114,6 @@
 
     </TextView>
 
-    <!--    <Button-->
-    <!--        android:id="@+id/btgoogle"-->
-    <!--        android:layout_width="243dp"-->
-    <!--        android:layout_height="60dp"-->
-    <!--        android:layout_marginLeft="50dp"-->
-    <!--        android:layout_marginTop="7dp"-->
-    <!--        android:background="@drawable/shape"-->
-    <!--        android:drawableLeft=""-->
-    <!--        android:shadowColor="@color/blue"-->
-    <!--        android:text="Login with Google">-->
-
-    <!--    </Button>-->
-
     <ImageView
         android:id="@+id/btgoogle"
         android:layout_width="240dp"
