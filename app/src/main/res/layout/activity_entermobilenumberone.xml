@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="15dp"
             android:text="@string/Forgot_Passward"
             android:textColor="@color/blue"
             android:textSize="35sp"
@@ -34,10 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="@string/we_will_send_you_an_one_time_password_on_this_given_mobile_number"
             android:textSize="14sp" />
@@ -47,7 +45,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"
             android:layout_marginRight="30dp"
@@ -88,8 +85,41 @@
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="____________  OR  ____________"
+            android:textSize="18dp">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/forgotemail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email Id">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/backgroundbox"
+                    android:inputType="textEmailAddress"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+
         <FrameLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
 
@@ -97,8 +127,7 @@
                 android:id="@+id/buttongetotp"
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="63dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/backgroundbutton"
                 android:text="Get Otp"
                 android:textStyle="bold" />

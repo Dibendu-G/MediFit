@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Medifit</string>
-    <string name="we_will_send_you_an_one_time_password_on_this_given_mobile_number">Do not worry! It happens. Please enter the number associated with your account.</string>
-    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_given_mobile_number">Do not worry! It happens. Please enter the number or the gmail id associated with your account.</string>
+    <string name="enter_mobile_number">Enter Mobile number or Gmail ID</string>
     <string name="Forgot_Passward">Forgot Password ?</string>
     <string name="TermsAndConditions"><a href="https://www.app-privacy-policy.com/live.php?token=U5dnfkHrU4cU4hlprczld5CKQTI6T0fI">Terms and Conditions</a></string>
     <string name="PrivacyPolicy"><a href="https://www.app-privacy-policy.com/live.php?token=Bh6uCQslRAPCOeBrObWtAOZ4IulLF8vh">Privacy Policy</a></string>
