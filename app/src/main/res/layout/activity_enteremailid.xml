@@ -43,7 +43,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="25dp"
         android:gravity="center"
-        android:text="ETA PROBLEM HOCCHE LEKHA TA"
+        android:text="Enter the Valid Email Id"
         android:textSize="14sp" />
 
     <LinearLayout

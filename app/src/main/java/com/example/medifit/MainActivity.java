@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         frgtpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,entermobilenumberone.class);
+                Intent i = new Intent(MainActivity.this,phoneoremail.class);
                 startActivity(i);
                 finish();
             }
