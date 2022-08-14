@@ -10,38 +10,39 @@
 
     <ImageView
         android:id="@+id/image_sendotp"
-        android:layout_width="350dp"
-        android:layout_height="262dp"
+        android:layout_width="299dp"
+        android:layout_height="232dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="25dp"
         android:src="@drawable/forgotpassword" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_marginLeft="20dp"
         android:text="@string/Forgot_Passward"
         android:textColor="@color/blue"
-        android:textSize="45sp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="350dp"
         android:layout_height="57dp"
-        android:layout_marginLeft="30dp"
         android:layout_marginBottom="15dp"
         android:gravity="center"
         android:text="Choose your Phone No or Email via which you want to reset your Password"
-        android:textSize="15sp">
+        android:textSize="16sp">
     </TextView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="45dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="13dp"
         android:text="Please Select Any of These To Reset Your Password">
 
     </TextView>
@@ -58,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="55dp"
             android:layout_marginTop="10dp"
             android:text=" Phone No"
             android:textSize="25dp">
@@ -86,7 +87,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="65dp"
             android:layout_marginTop="10dp"
-            android:text="____________  OR  ____________"
+            android:layout_marginBottom="10dp"
+            android:text="_________  OR  _________"
             android:textSize="20dp">
 
         </TextView>
@@ -103,7 +105,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="55dp"
             android:layout_marginTop="10dp"
             android:text=" Email    Id"
             android:textSize="25dp">
@@ -111,8 +113,8 @@
         </TextView>
 
         <ImageView
-            android:layout_width="44dp"
-            android:layout_height="28dp"
+            android:layout_width="36dp"
+            android:layout_height="26dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/email"
@@ -121,19 +123,6 @@
         </ImageView>
 
     </LinearLayout>
-    <Button
-        android:id="@+id/buttongetotporlink"
-        android:layout_width="260dp"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
-        android:background="@drawable/backgroundbutton"
-        android:text="Submit"
-        android:layout_margin="30dp"
-        android:textStyle="bold" />
-
-
-
-
 
 </LinearLayout>
 
