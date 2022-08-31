@@ -49,7 +49,7 @@
             android:layout_marginRight="30dp"
             android:layout_marginBottom="35dp"
             android:gravity="center"
-            android:text="@string/enter_the_mobile_number"
+            android:text="Enter The Mobile Number"
             android:textSize="14sp" />
 
         <LinearLayout

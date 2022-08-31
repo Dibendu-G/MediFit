@@ -24,6 +24,7 @@ public class phoneoremail extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(phoneoremail.this,entermobilenumberone.class);
                 startActivity(intent);
+                finish();
             }
         });
         email_choosen.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +32,7 @@ public class phoneoremail extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(phoneoremail.this,enteremailid.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
