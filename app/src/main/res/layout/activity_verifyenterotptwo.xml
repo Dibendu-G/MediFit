@@ -8,6 +8,8 @@
     android:scrollbars="none"
     tools:context=".verifyenterotptwo">
 
+
+
     // top one section
 
     <LinearLayout
