@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.medifit" >
+    package="com.example.medifit">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,13 +14,31 @@
         android:roundIcon="@mipmap/mfitlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Medifit"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".stepsrecord"
+            android:exported="false" />
+        <activity
+            android:name=".stepstracker"
+            android:exported="false" />
+        <activity
+            android:name=".medicinelistadd"
+            android:exported="false" />
+        <activity
+            android:name=".alarm"
+            android:exported="false" />
+        <activity
+            android:name=".addmedicine"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
         <activity
             android:name=".passwordResetMessage"
             android:exported="false" />
         <activity
             android:name=".IntroductoryActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,8 +65,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
