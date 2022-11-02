@@ -16,9 +16,6 @@
         android:theme="@style/Theme.Medifit"
         tools:targetApi="31">
         <activity
-            android:name=".stepsrecord"
-            android:exported="false" />
-        <activity
             android:name=".stepstracker"
             android:exported="false" />
         <activity
@@ -26,9 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".alarm"
-            android:exported="false" />
-        <activity
-            android:name=".addmedicine"
             android:exported="false" />
         <activity
             android:name=".dashboard"

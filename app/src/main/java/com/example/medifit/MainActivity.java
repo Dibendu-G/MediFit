@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                         if(task.isSuccessful())
                         {
                             Toast.makeText(MainActivity.this, "Login Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(MainActivity.this,SecondAcrivity.class));
+                            startActivity(new Intent(MainActivity.this,dashboard.class));
                         }
                         else {
                             Toast.makeText(MainActivity.this,"Error !"+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
     void navigateToSecondActivity()
     {
         finish();
-        Intent intent = new Intent(MainActivity.this,SecondAcrivity.class);
+        Intent intent = new Intent(MainActivity.this,dashboard.class);
         startActivity(intent);
     }
 }

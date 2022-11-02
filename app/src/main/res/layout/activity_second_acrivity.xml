@@ -75,7 +75,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/logout"
+        android:id="@+id/dshbordbttn"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
